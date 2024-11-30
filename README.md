@@ -14,3 +14,20 @@ Generated Power:
 Displays power output in kilowatts for active turbines.
 Simulated Chart:
 A time-series chart showing turbine status over simulated time intervals.
+
+Steps for execution:
+
+Here are the detailed steps for executing the Wind Turbine Status Prediction Dashboard on your local machine:
+
+Steps for Execution
+1. Clone the Repository
+Download the project files from the GitHub repository to your local machine.
+in your bash terminal run:
+git clone https://github.com/your-username/wind-turbine-dashboard.git
+cd wind-turbine-dashboard
+2. This installs all necessary libraries, including:
+streamlit: For the interactive dashboard.
+pandas: For data manipulation.
+numpy: For numerical calculations.
+scikit-learn: For the machine learning model.
+joblib: For loading the pre-trained model and scaler.
