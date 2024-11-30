@@ -15,9 +15,6 @@ Displays power output in kilowatts for active turbines.
 Simulated Chart:
 A time-series chart showing turbine status over simulated time intervals.
 
-Steps for execution:
-
-Here are the detailed steps for executing the Wind Turbine Status Prediction Dashboard on your local machine:
 
 Steps for Execution
 1. Clone the Repository
@@ -31,3 +28,6 @@ pandas: For data manipulation.
 numpy: For numerical calculations.
 scikit-learn: For the machine learning model.
 joblib: For loading the pre-trained model and scaler.
+3. Run the Dashboard
+Launch the Streamlit app with the following command:
+streamlit run turbine_dashboard.py
